@@ -20,7 +20,7 @@ Rails.application.routes.draw do
   resources :habits
   resources :users
 
-  get '/*a', to: 'application#not_found'
+  # get '/*a', to: 'application#not_found'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
