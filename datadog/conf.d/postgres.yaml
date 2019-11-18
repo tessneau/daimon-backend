@@ -6,4 +6,4 @@ instances:
     username: lyhnkkhsbixwph
     password: fdc82474a3e525f77fcfb9952691497e64634bc93b2da61aa48168c784dbe3bc
     dbname: da9voeusvh64f7
-    ssl: True
+    ssl: true
