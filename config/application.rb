@@ -30,6 +30,20 @@ module DaimonBackend
       end
     end
 
+    #lograge for datadog
+    # Lograge config
+    # config.lograge.enabled = true
+    #
+    # # We are asking here to log in RAW (which are actually ruby hashes). The Ruby logging is going to take care of the JSON formatting.
+    # config.lograge.formatter = Lograge::Formatters::Raw.new
+    #
+    # # This is useful if you want to log query parameters
+    # config.lograge.custom_options = lambda do |event|
+    #     { :ddsource => ["ruby"],
+    #       :params => event.payload[:params].reject { |k| %w(controller action).include? k }
+    #     }
+    # end
+
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
