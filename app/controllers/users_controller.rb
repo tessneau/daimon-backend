@@ -25,10 +25,6 @@ class UsersController < ApplicationController
     render json: {user: UserSerializer.new(super_current_user)}
   end
 
-  def delete
-    #fill in
-  end
-
   private
 
   def user_params
