@@ -2,7 +2,7 @@
 
 A community driven habit-tracking app for honest professionals.
 
-[Check it out live](https://daimon-frontend.herokuapp.com/) (heroku deployment in progress)
+[Check it out live](https://daimon-frontend.herokuapp.com/) (loading might require a refresh)
 
 ![app runthrough gif](https://giant.gfycat.com/RawTiredElk.gif)
 
